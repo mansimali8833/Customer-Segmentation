@@ -1,4 +1,23 @@
-# Customer-Segmentation-DBSCAN-
-Mall Customer Segmentation Project
+# Customer Segmentation using DBSCAN
+This project is a Python-based GUI application that performs customer segmentation on mall datasets using Scikit-learn's DBSCAN algorithm. Featuring a user-friendly interface built with PyQt5, it enables easy CSV file selection, column-wise clustering, and visualizes the results through real-time plots and dynamic tables—highlighting both cluster groups and outliers for clear and interactive analysis
+A Python-based GUI application for mall customer segmentation using the DBSCAN clustering algorithm. Built with PyQt5, it allows interactive CSV file selection, column-wise clustering, real-time visualization, and saving of results.
 
-This project utilizes Python and Scikit-learn's DBSCAN algorithm to perform customer segmentation for a mall dataset. It includes a user-friendly interface built with PyQt5 for easy selection of CSV files. The project visualizes outliers and presents cluster groups in tables for easy interpretation.
+## Features
+- Upload CSV files via GUI
+- Select specific columns for clustering
+- Visualize clusters and outliers using Matplotlib
+- Display data in an interactive table
+- Save the clustered data with labels to CSV
+
+## Tech Stack
+- Python
+- Scikit-learn (DBSCAN)
+- Pandas
+- PyQt5
+- Matplotlib
+
+## How to Run
+- Install dependencies:
+```bash
+pip install pandas scikit-learn matplotlib pyqt5
+python dbscan_gui.py**
