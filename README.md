@@ -1,2 +1,4 @@
-# Customer-Segmentation
- Implemented customer segmentation using Python and Scikit-learn’s DBSCAN algorithm. Developed a user friendly interface with PyQt5 for interactive CSV file selection, clustering, and saving results. Visualized cluster  groups and highlighted outliers with integrated plotting and dynamic tables.
+# Customer-Segmentation-DBSCAN-
+Mall Customer Segmentation Project
+
+This project utilizes Python and Scikit-learn's DBSCAN algorithm to perform customer segmentation for a mall dataset. It includes a user-friendly interface built with PyQt5 for easy selection of CSV files. The project visualizes outliers and presents cluster groups in tables for easy interpretation.
